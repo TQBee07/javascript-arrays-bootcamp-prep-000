@@ -53,5 +53,5 @@ function removeElementFromEndOfArray(array) {
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-  array.splice(0,1)
+  array.shift()
 }
